@@ -28,6 +28,15 @@ body.is-preload #intro {
 	/* Starting color */
 }
 
+#intro {
+	background-color: #a03f21e9;
+	/* Final color */
+	opacity: 0;
+	/* No fade */
+	transition: none;
+	/* Disable any fading */
+}
+
 body.is-preload #intro:not(.hidden)+#header+#nav {
 	-moz-transform: none;
 	-webkit-transform: none;
