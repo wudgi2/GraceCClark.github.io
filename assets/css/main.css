@@ -190,7 +190,11 @@ html {
 }
 
 body {
-	background-color: #1e252d;
+	background-image: url('images/Untitled2.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 body.is-preload *,
