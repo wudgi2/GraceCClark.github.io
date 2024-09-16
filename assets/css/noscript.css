@@ -31,7 +31,7 @@ body.is-preload #intro {
 #intro {
 	background-color: #a03f21e9;
 	/* Final color */
-	opacity: 0;
+	opacity: 1;
 	/* No fade */
 	transition: none;
 	/* Disable any fading */
