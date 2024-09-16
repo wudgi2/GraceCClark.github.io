@@ -190,15 +190,7 @@ html {
 }
 
 body {
-	background-image: url('images/Untitled2.png');
-	background-size: cover;
-	/* Ensures the image covers the entire background */
-	background-position: center;
-	/* Centers the background image */
-	background-repeat: no-repeat;
-	/* Prevents the image from repeating */
-	background-attachment: fixed;
-	/* Makes the background image fixed while scrolling */
+	background-color: #1e252d;
 }
 
 body.is-preload *,
