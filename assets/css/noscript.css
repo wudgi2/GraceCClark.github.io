@@ -24,8 +24,8 @@
 /* Intro */
 
 body.is-preload #intro {
-	opacity: 1;
 	background-color: #a03f21e9;
+	opacity: 1;
 }
 
 body.is-preload #intro:not(.hidden)+#header+#nav {
