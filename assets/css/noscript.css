@@ -23,6 +23,11 @@
 
 /* Intro */
 
+body.is-preload #intro {
+	opacity: 1;
+	background-color: #a03f21e9;
+}
+
 body.is-preload #intro:not(.hidden)+#header+#nav {
 	-moz-transform: none;
 	-webkit-transform: none;
