@@ -50,43 +50,55 @@
 					<h1>About Me<br />
 					</h1>
 				</header>
-				<div class="col-4">
+				<div class="image-container">
 					<span class="image fit">
 						<img src="images/Snapchat-1766223954.jpg" alt="A circular image" class="circle-image" />
 					</span>
 				</div>
 
+				<div class="text-container">
+					<p>My name is Grace Clark and I am a graduate in Media Arts & Sciences with a
+						focus in Media Processing. I am an artist and have
+						worked within many mediums, whether it be digital or
+						physical. This site is to show my portfolio of work I
+						have done throughout my college career as well as in
+						my personal time. The work is mainly in relation to design and
+						3D rendering/modeling, which is my primary interest.</p>
+				</div>
+
 				<style>
-					/* Flex container for the image and text */
+					/* Flex container for image and text */
 					.content-wrapper {
 						display: flex;
-						flex-wrap: wrap;
 						align-items: center;
 						justify-content: space-between;
+						flex-wrap: wrap;
+						margin-top: 20px;
+						/* Add some margin from the header */
 					}
 
-					.col-4 {
+					/* Container for the image */
+					.image-container {
 						flex: 1 1 40%;
+						/* Takes 40% of the available space */
 						max-width: 40%;
-						padding-right: 20px;
 					}
 
-					.col-8 {
+					/* Container for the text */
+					.text-container {
 						flex: 1 1 60%;
+						/* Takes 60% of the available space */
 						max-width: 60%;
 					}
 
 					/* Square image with object-fit cover */
 					.square-image {
 						width: 100%;
-						max-width: 300px;
-						/* Adjust the size as needed */
-						height: auto;
 						aspect-ratio: 1 / 1;
 						/* Ensures the image stays square */
 						object-fit: cover;
 						border-radius: 5%;
-						/* Slight rounding for aesthetic, or use 0 for perfect square */
+						/* Slight rounding for aesthetic */
 					}
 
 					/* Responsive adjustments */
@@ -94,30 +106,22 @@
 						.content-wrapper {
 							flex-direction: column;
 							/* Stack image and text vertically on smaller screens */
-							align-items: center;
 						}
 
-						.col-4,
-						.col-8 {
+						.image-container,
+						.text-container {
 							max-width: 100%;
-							flex-basis: 100%;
-							padding: 0;
+							/* Full width on smaller screens */
 						}
 
 						.square-image {
 							max-width: 250px;
 							/* Adjust image size for smaller screens */
+							margin: 0 auto;
+							/* Center the image on smaller screens */
 						}
 					}
 				</style>
-
-				<p>My name is Grace Clark and I am a graduate in Media Arts & Sciences with a
-					focus in Media Processing. I am an artist and have
-					worked within many mediums, whether it be digital or
-					physical. This site is to show my portfolio of work I
-					have done throughout my college career as well as in
-					my personal time. The work is mainly in relation to design and
-					3D rendering/modeling, which is my primary interest.</p>
 			</section>
 
 			<!-- Featured Post -->
