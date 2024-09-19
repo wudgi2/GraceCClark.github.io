@@ -75,9 +75,15 @@
 
 			/* Resume text aligned to the right */
 			.resume-text {
+				list-style: none;
 				margin-left: auto;
 				/* Pushes "View Resume" text to the right */
 				padding: 0;
+			}
+
+			.resume-text li {
+				list-style-type: none;
+				/* Ensures there are no bullets */
 			}
 
 			.resume-text li a {
@@ -85,10 +91,22 @@
 				text-decoration: none;
 				font-weight: bold;
 				font-size: 16px;
+				display: inline-block;
 			}
 
 			.resume-text li a:hover {
 				text-decoration: none;
+			}
+
+			/* Reset list styles globally if needed */
+			ul {
+				list-style: none;
+				padding-left: 0;
+			}
+
+			a {
+				text-decoration: none !important;
+				/* Ensure no underline on all links */
 			}
 		</style>
 
