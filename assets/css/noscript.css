@@ -9,7 +9,7 @@
 /* Wrapper */
 
 #wrapper {
-	background-color: #a03f21e9;
+	background-color: #896053e9;
 	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 	background-size: auto, auto, 100% auto;
 	background-position: center, center, top center;
@@ -24,12 +24,12 @@
 /* Intro */
 
 body.is-preload #intro {
-	background-color: #a03f21e9;
+	background-color: #896053e9;
 	/* Starting color */
 }
 
 #intro {
-	background-color: #a03f21e9;
+	background-color: #896053e9;
 	/* Final color */
 	opacity: 1;
 	/* No fade */

@@ -190,7 +190,7 @@ html {
 }
 
 body {
-	background-color: #a03f21e9;
+	background-color: #896053e9;
 }
 
 body.is-preload *,
@@ -237,7 +237,7 @@ html {
 }
 
 body {
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 body,
@@ -398,11 +398,11 @@ hr.major {
 input,
 select,
 textarea {
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 a {
-	color: #a03f21e9;
+	color: #896053e9;
 	border-bottom-color: rgba(33, 41, 49, 0.5);
 }
 
@@ -413,7 +413,7 @@ a:hover {
 
 strong,
 b {
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 h1,
@@ -422,7 +422,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 blockquote {
@@ -2323,8 +2323,8 @@ input[type="button"],
 button,
 .button {
 	background-color: transparent;
-	box-shadow: inset 0 0 0 2px #a03f21e9;
-	color: #a03f21e9 !important;
+	box-shadow: inset 0 0 0 2px #896053e9;
+	color: #896053e9 !important;
 }
 
 input[type="submit"]:hover,
@@ -2341,7 +2341,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-	background-color: #a03f21e9;
+	background-color: #896053e9;
 	box-shadow: none;
 	color: #ffffff !important;
 }
@@ -2592,7 +2592,7 @@ input[type="radio"]+label:before {
 }
 
 label {
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 input[type="text"],
@@ -2617,7 +2617,7 @@ select {
 
 select option {
 	background-color: #ffffff;
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 .select-wrapper:before {
@@ -2626,7 +2626,7 @@ select option {
 
 input[type="checkbox"]+label,
 input[type="radio"]+label {
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 input[type="checkbox"]+label:before,
@@ -2636,8 +2636,8 @@ input[type="radio"]+label:before {
 
 input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
-	background-color: #a03f21e9;
-	border-color: #a03f21e9;
+	background-color: #896053e9;
+	border-color: #896053e9;
 	color: #ffffff;
 }
 
@@ -3206,7 +3206,7 @@ table tbody tr:nth-child(2n + 1) {
 }
 
 table th {
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 table thead {
@@ -3322,7 +3322,7 @@ table.alt tbody tr td {
 }
 
 .pagination a {
-	color: #a03f21e9 !important;
+	color: #896053e9 !important;
 }
 
 .pagination a:hover {
@@ -3362,7 +3362,7 @@ table.alt tbody tr td {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #a03f21e9;
+	background-color: #896053e9;
 	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 	background-size: auto, auto, 100% auto;
 	background-position: center, center, top center;
@@ -4700,7 +4700,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #navPanelToggle.alt {
 	background-color: rgba(255, 255, 255, 0.875);
 	box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 #navPanelToggle.alt:hover {
@@ -4737,7 +4737,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	-webkit-overflow-scrolling: touch;
 	background: #ffffff;
 	box-shadow: none;
-	color: #a03f21e9;
+	color: #896053e9;
 	height: 100%;
 	max-width: 80%;
 	overflow-y: auto;
@@ -4816,7 +4816,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #navPanel .close:hover {
-	color: #a03f21e9;
+	color: #896053e9;
 }
 
 @media screen and (max-width: 736px) {
