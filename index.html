@@ -50,201 +50,198 @@
 					<h1>About Me<br />
 					</h1>
 				</header>
-				<div class="content-wrapper"></div>
 				<div class="col-4">
 					<span class="image fit">
-						<img src="images/Snapchat-1766223954.jpg" alt="A circular image" class="square-image" />
+						<img src="images/Snapchat-1766223954.jpg" alt="A circular image" class="circle-image" />
 					</span>
 				</div>
 
-				<div class="col-8">
-					<p>My name is Grace Clark and I am a graduate in Media Arts & Sciences with a
-						focus in Media Processing. I am an artist and have
-						worked within many mediums, whether it be digital or
-						physical. This site is to show my portfolio of work I
-						have done throughout my college career as well as in
-						my personal time. The work is mainly in relation to design and
-						3D rendering/modeling, which is my primary interest.</p>
-				</div>
+				<style>
+					/* Flex container for the image and text */
+					.content-wrapper {
+						display: flex;
+						flex-wrap: wrap;
+						align-items: center;
+						justify-content: space-between;
+					}
+
+					.col-4 {
+						flex: 1 1 40%;
+						max-width: 40%;
+						padding-right: 20px;
+					}
+
+					.col-8 {
+						flex: 1 1 60%;
+						max-width: 60%;
+					}
+
+					/* Square image with object-fit cover */
+					.square-image {
+						width: 100%;
+						max-width: 300px;
+						/* Adjust the size as needed */
+						height: auto;
+						aspect-ratio: 1 / 1;
+						/* Ensures the image stays square */
+						object-fit: cover;
+						border-radius: 5%;
+						/* Slight rounding for aesthetic, or use 0 for perfect square */
+					}
+
+					/* Responsive adjustments */
+					@media (max-width: 768px) {
+						.content-wrapper {
+							flex-direction: column;
+							/* Stack image and text vertically on smaller screens */
+							align-items: center;
+						}
+
+						.col-4,
+						.col-8 {
+							max-width: 100%;
+							flex-basis: 100%;
+							padding: 0;
+						}
+
+						.square-image {
+							max-width: 250px;
+							/* Adjust image size for smaller screens */
+						}
+					}
+				</style>
+
+				<p>My name is Grace Clark and I am a graduate in Media Arts & Sciences with a
+					focus in Media Processing. I am an artist and have
+					worked within many mediums, whether it be digital or
+					physical. This site is to show my portfolio of work I
+					have done throughout my college career as well as in
+					my personal time. The work is mainly in relation to design and
+					3D rendering/modeling, which is my primary interest.</p>
+			</section>
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+
+					<h2><a href="subzerosalvation.html">Subzero Salvation</a></h2>
+					<p>VR game assets done in collaboration with Dreamscape Learn.</p>
+				</header>
+				<a href="subzerosalvation.html" class="image main"><img src="images/BaseZoomedOut.png" alt="" /></a>
+				<ul class="actions special">
+					<li><a href="subzerosalvation.html" class="button large">View Project</a></li>
+				</ul>
+			</article>
+
+			<!-- Posts -->
+			<section class="posts">
+				<article>
+					<header>
+						<h2><a href="zbrush.html">ZBrush</a></h2>
+					</header>
+					<a href="zbrush.html" class="image fit"><img src="images/zbrushBody.png" alt=""
+							style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
+					<ul class="actions special">
+						<li><a href="zbrush.html" class="button">View Project</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="mmocapstone.html">MMO Capstone</a></h2>
+					</header>
+					<a href="mmocapstone.html" class="image fit"><img src="images/Outfit.png" alt=""
+							style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
+					<ul class="actions special">
+						<li><a href="mmocapstone.html" class="button">View Project</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="dreamhouse.html">Dream House Model</a></h2>
+					</header>
+					<a href="dreamhouse.html" class="image fit"><img src="images/HouseFront.png" alt=""
+							style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
+					<ul class="actions special">
+						<li><a href="dreamhouse.html" class="button">View Project</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="personalprojects.html">Personal Projects</a></h2>
+					</header>
+					<a href="personalprojects.html" class="image fit"><img src="images/led_pixels_hero-blue-2.jpg"
+							alt=""
+							style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
+					<ul class="actions special">
+						<li><a href="personalprojects.html" class="button">View Project</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="lasercut.html">Laser Cut</a></h2>
+					</header>
+					<a href="lasercut.html" class="image fit"><img src="images/LaserBox.png" alt=""
+							style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
+					<ul class="actions special">
+						<li><a href="lasercut.html" class="button">View Project</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="blender.html">Blender</a></h2>
+					</header>
+					<a href="blender.html" class="image fit"><img src="images/Donut.png" alt=""
+							style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
+					<ul class="actions special">
+						<li><a href="blender.html" class="button">View Project</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="vcvrack2.html">VCVRack 2</a></h2>
+					</header>
+					<a href="vcvrack2.html" class="image fit"><img src="images/vcvrack2.png" alt=""
+							style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
+					<ul class="actions special">
+						<li><a href="vcvrack2.html" class="button">View Project</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="miscellaneous.html">Miscellaneous</a></h2>
+					</header>
+					<a href="miscellaneous.html" class="image fit"><img src="images/Chair.png" alt=""
+							style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
+					<ul class="actions special">
+						<li><a href="miscellaneous.html" class="button">View Project</a></li>
+					</ul>
+				</article>
+			</section>
+
+			<!-- Footer -->
 		</div>
 
-		<style>
-			/* Flex container for the image and text */
-			.content-wrapper {
-				display: flex;
-				flex-wrap: wrap;
-				align-items: center;
-				justify-content: space-between;
-			}
-
-			.col-4 {
-				flex: 1 1 40%;
-				max-width: 40%;
-				padding-right: 20px;
-			}
-
-			.col-8 {
-				flex: 1 1 60%;
-				max-width: 60%;
-			}
-
-			/* Square image with object-fit cover */
-			.square-image {
-				width: 100%;
-				max-width: 300px;
-				/* Adjust the size as needed */
-				height: auto;
-				aspect-ratio: 1 / 1;
-				/* Ensures the image stays square */
-				object-fit: cover;
-				border-radius: 5%;
-				/* Slight rounding for aesthetic, or use 0 for perfect square */
-			}
-
-			/* Responsive adjustments */
-			@media (max-width: 768px) {
-				.content-wrapper {
-					flex-direction: column;
-					/* Stack image and text vertically on smaller screens */
-					align-items: center;
-				}
-
-				.col-4,
-				.col-8 {
-					max-width: 100%;
-					flex-basis: 100%;
-					padding: 0;
-				}
-
-				.square-image {
-					max-width: 250px;
-					/* Adjust image size for smaller screens */
-				}
-			}
-		</style>
-		</section>
-
-		<!-- Featured Post -->
-		<article class="post featured">
-			<header class="major">
-
-				<h2><a href="subzerosalvation.html">Subzero Salvation</a></h2>
-				<p>VR game assets done in collaboration with Dreamscape Learn.</p>
-			</header>
-			<a href="subzerosalvation.html" class="image main"><img src="images/BaseZoomedOut.png" alt="" /></a>
-			<ul class="actions special">
-				<li><a href="subzerosalvation.html" class="button large">View Project</a></li>
-			</ul>
-		</article>
-
-		<!-- Posts -->
-		<section class="posts">
-			<article>
-				<header>
-					<h2><a href="zbrush.html">ZBrush</a></h2>
-				</header>
-				<a href="zbrush.html" class="image fit"><img src="images/zbrushBody.png" alt=""
-						style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
-				<ul class="actions special">
-					<li><a href="zbrush.html" class="button">View Project</a></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="mmocapstone.html">MMO Capstone</a></h2>
-				</header>
-				<a href="mmocapstone.html" class="image fit"><img src="images/Outfit.png" alt=""
-						style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
-				<ul class="actions special">
-					<li><a href="mmocapstone.html" class="button">View Project</a></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="dreamhouse.html">Dream House Model</a></h2>
-				</header>
-				<a href="dreamhouse.html" class="image fit"><img src="images/HouseFront.png" alt=""
-						style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
-				<ul class="actions special">
-					<li><a href="dreamhouse.html" class="button">View Project</a></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="personalprojects.html">Personal Projects</a></h2>
-				</header>
-				<a href="personalprojects.html" class="image fit"><img src="images/led_pixels_hero-blue-2.jpg" alt=""
-						style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
-				<ul class="actions special">
-					<li><a href="personalprojects.html" class="button">View Project</a></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="lasercut.html">Laser Cut</a></h2>
-				</header>
-				<a href="lasercut.html" class="image fit"><img src="images/LaserBox.png" alt=""
-						style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
-				<ul class="actions special">
-					<li><a href="lasercut.html" class="button">View Project</a></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="blender.html">Blender</a></h2>
-				</header>
-				<a href="blender.html" class="image fit"><img src="images/Donut.png" alt=""
-						style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
-				<ul class="actions special">
-					<li><a href="blender.html" class="button">View Project</a></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="vcvrack2.html">VCVRack 2</a></h2>
-				</header>
-				<a href="vcvrack2.html" class="image fit"><img src="images/vcvrack2.png" alt=""
-						style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
-				<ul class="actions special">
-					<li><a href="vcvrack2.html" class="button">View Project</a></li>
-				</ul>
-			</article>
-			<article>
-				<header>
-					<h2><a href="miscellaneous.html">Miscellaneous</a></h2>
-				</header>
-				<a href="miscellaneous.html" class="image fit"><img src="images/Chair.png" alt=""
-						style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto;" /></a>
-				<ul class="actions special">
-					<li><a href="miscellaneous.html" class="button">View Project</a></li>
-				</ul>
-			</article>
-		</section>
-
 		<!-- Footer -->
-	</div>
-
-	<!-- Footer -->
-	<footer id="footer">
-		<section class="split contact">
-			<section>
-				<h3>Location</h3>
-				<p><a href="#">Gilbert, AZ</a></p>
+		<footer id="footer">
+			<section class="split contact">
+				<section>
+					<h3>Location</h3>
+					<p><a href="#">Gilbert, AZ</a></p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p><a href="#">gracec1023@gmail.com</a></p>
+				</section>
 			</section>
-			<section>
-				<h3>Email</h3>
-				<p><a href="#">gracec1023@gmail.com</a></p>
-			</section>
-		</section>
-	</footer>
+		</footer>
 
-	<!-- Copyright -->
-	<div id="copyright">
-		<ul>
-			<li>&copy; 2024 by Grace Clark</li>
-			<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-		</ul>
-	</div>
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy; 2024 by Grace Clark</li>
+				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
 
 	</div>
 
