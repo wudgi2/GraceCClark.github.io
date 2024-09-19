@@ -42,7 +42,7 @@
 						<span class="label">Email</span></a></li>
 			</ul>
 
-			<ul class="resume-button"></ul>
+			<ul class="resume-text"></ul>
 			<li><a href="grace_clark_resume.pdf" download>View Resume</a></li>
 			</ul>
 		</nav>
@@ -75,9 +75,10 @@
 
 			/* Resume text aligned to the right */
 			.resume-text {
+				list-style-type: none;
+				/* Removes the bullet point */
 				margin-left: auto;
 				/* Pushes "View Resume" text to the right */
-				list-style-type: none;
 				padding: 0;
 			}
 
@@ -85,10 +86,11 @@
 				color: #333;
 				text-decoration: none;
 				font-weight: bold;
+				font-size: 16px;
 			}
 
 			.resume-text li a:hover {
-				text-decoration: underline;
+				text-decoration: none;
 				/* Adds underline on hover */
 			}
 		</style>
