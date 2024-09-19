@@ -43,38 +43,53 @@
 			</ul>
 
 			<ul class="resume-button"></ul>
-			<li><a href="grace_clark_resume.pdf" class="button" download>View Resume</a></li>
+			<li><a href="grace_clark_resume.pdf" download>View Resume</a></li>
 			</ul>
 		</nav>
 
 		<style>
-			.button {
-				display: inline-block;
+			/* Flexbox layout for the entire nav */
+			#nav {
+				display: flex;
+				justify-content: space-between;
+				/* Spreads out items to the left and right */
+				align-items: center;
+				/* Vertically center all items */
 				padding: 10px 20px;
-				border-radius: 10px;
-				/* Rounded corners */
-				background-color: #816762;
-				/* Button background color */
-				color: white !important;
-				/* Text color */
-				text-decoration: none;
-				font-weight: bold;
-				text-align: center;
-				vertical-align: middle;
-				margin: 6px 0;
-				line-height: normal;
 			}
 
-			.button:hover {
-				background-color: #968a88;
-				/* Darker background on hover */
-			}
-
-			.resume-button {
-				margin-left: auto;
-				/* Pushes the button to the right */
+			/* Style for the links and icons */
+			.links,
+			.icons {
 				list-style-type: none;
 				padding: 0;
+				margin: 0;
+				display: flex;
+			}
+
+			.links li,
+			.icons li {
+				margin-right: 20px;
+				/* Space between items */
+			}
+
+			/* Resume text aligned to the right */
+			.resume-text {
+				margin-left: auto;
+				/* Pushes "View Resume" text to the right */
+				list-style-type: none;
+				padding: 0;
+			}
+
+			.resume-text li a {
+				color: #333;
+				text-decoration: none;
+				font-weight: bold;
+			}
+
+			.resume-text li a:hover {
+				text-decoration: underline;
+				/* Adds underline on hover */
 			}
 		</style>
 
