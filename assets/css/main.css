@@ -411,6 +411,18 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	list-style-type: none;
+	/* Removes bullet points from all unordered lists */
+	padding-left: 0;
+	/* Removes the left indentation */
+}
+
+li {
+	list-style-type: none;
+	/* Removes bullet points from all list items */
+}
+
 a:hover {
 	border-bottom-color: transparent;
 	color: #18bfef !important;
