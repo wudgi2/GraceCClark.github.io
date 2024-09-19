@@ -406,6 +406,11 @@ a {
 	border-bottom-color: rgba(33, 41, 49, 0.5);
 }
 
+.no-underline {
+	border-bottom: none;
+	text-decoration: none;
+}
+
 a:hover {
 	border-bottom-color: transparent;
 	color: #18bfef !important;
