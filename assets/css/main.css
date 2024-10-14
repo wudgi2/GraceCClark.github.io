@@ -2340,8 +2340,8 @@ input[type="button"],
 button,
 .button {
 	background-color: transparent;
-	box-shadow: inset 0 0 0 2px #896053e9;
-	color: #896053e9 !important;
+	box-shadow: inset 0 0 0 2px #38312e;
+	color: #38312e !important;
 }
 
 input[type="submit"]:hover,
@@ -2358,7 +2358,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-	background-color: #896053e9;
+	background-color: #38312e;
 	box-shadow: none;
 	color: #ffffff !important;
 }
@@ -2609,7 +2609,7 @@ input[type="radio"]+label:before {
 }
 
 label {
-	color: #896053e9;
+	color: #38312e;
 }
 
 input[type="text"],
@@ -2634,7 +2634,7 @@ select {
 
 select option {
 	background-color: #ffffff;
-	color: #896053e9;
+	color: #38312e;
 }
 
 .select-wrapper:before {
@@ -2643,7 +2643,7 @@ select option {
 
 input[type="checkbox"]+label,
 input[type="radio"]+label {
-	color: #896053e9;
+	color: #38312e;
 }
 
 input[type="checkbox"]+label:before,
@@ -2653,8 +2653,8 @@ input[type="radio"]+label:before {
 
 input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
-	background-color: #896053e9;
-	border-color: #896053e9;
+	background-color: #38312e;
+	border-color: #38312e;
 	color: #ffffff;
 }
 
@@ -3223,7 +3223,7 @@ table tbody tr:nth-child(2n + 1) {
 }
 
 table th {
-	color: #896053e9;
+	color: #38312e;
 }
 
 table thead {
@@ -3339,7 +3339,7 @@ table.alt tbody tr td {
 }
 
 .pagination a {
-	color: #896053e9 !important;
+	color: #38312e !important;
 }
 
 .pagination a:hover {
@@ -3379,7 +3379,7 @@ table.alt tbody tr td {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #896053e9;
+	background-color: #38312e;
 	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 	background-size: auto, auto, 100% auto;
 	background-position: center, center, top center;
@@ -4720,7 +4720,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #navPanelToggle.alt {
 	background-color: rgba(255, 255, 255, 0.875);
 	box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-	color: #896053e9;
+	color: #38312e;
 }
 
 #navPanelToggle.alt:hover {
@@ -4757,7 +4757,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	-webkit-overflow-scrolling: touch;
 	background: #ffffff;
 	box-shadow: none;
-	color: #896053e9;
+	color: #38312e;
 	height: 100%;
 	max-width: 80%;
 	overflow-y: auto;
@@ -4836,7 +4836,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #navPanel .close:hover {
-	color: #896053e9;
+	color: #38312e;
 }
 
 @media screen and (max-width: 736px) {
