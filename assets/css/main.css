@@ -4719,7 +4719,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #navPanelToggle.alt {
-	background-color: rgb(111, 103, 103);
+	background-color: rgb(255, 255, 255);
 	box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
 	color: #38312e;
 }
