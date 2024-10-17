@@ -3625,7 +3625,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 @media screen and (max-width: 736px) {
 
 	#intro {
-		padding: 5rem 4rem 8rem 4rem;
+		padding: 5rem 4rem 6rem 4rem;
 		min-height: 80vh;
 	}
 
