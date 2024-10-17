@@ -4700,6 +4700,18 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	z-index: 10001;
 }
 
+#navPanelToggle {
+	color: #881212;
+	/* Set the menu color */
+	font-size: 1.5rem;
+	/* Adjust size if needed */
+}
+
+#navPanelToggle:hover {
+	color: #18bfef;
+	/* Change color on hover */
+}
+
 #navPanelToggle:before {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
