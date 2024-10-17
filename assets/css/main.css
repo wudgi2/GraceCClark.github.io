@@ -4703,8 +4703,6 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #navPanelToggle {
 	color: #897b7b;
 	/* Set the menu color */
-	background-color: #897b7b;
-	/* Optionally set a background color */
 	font-size: 1.5rem;
 	/* Adjust size if needed */
 }
