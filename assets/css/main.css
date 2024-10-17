@@ -4700,18 +4700,6 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	z-index: 10001;
 }
 
-#navPanelToggle {
-	color: #897b7b;
-	/* Set the menu color */
-	font-size: 1.5rem;
-	/* Adjust size if needed */
-}
-
-#navPanelToggle:hover {
-	color: #18bfef;
-	/* Change color on hover */
-}
-
 #navPanelToggle:before {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
@@ -4731,7 +4719,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #navPanelToggle.alt {
-	background-color: rgba(255, 255, 255, 0.875);
+	background-color: rgb(111, 103, 103);
 	box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
 	color: #38312e;
 }
