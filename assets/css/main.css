@@ -3794,7 +3794,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #nav ul.divided li {
-	border-top-color: #ffffff;
+	border-top-color: #756767;
 }
 
 #nav ul.icons li a.icon:hover:before {
@@ -3802,7 +3802,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #nav ul.icons.alt li .icon:before {
-	box-shadow: inset 0 0 0 2px #ffffff;
+	box-shadow: inset 0 0 0 2px #756767;
 }
 
 #nav ul.icons.alt li a.icon:hover:before {
@@ -3812,11 +3812,11 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #nav input,
 #nav select,
 #nav textarea {
-	color: #ffffff;
+	color: #756767;
 }
 
 #nav a {
-	color: #ffffff;
+	color: #756767;
 	border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -3827,7 +3827,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 #nav strong,
 #nav b {
-	color: #ffffff;
+	color: #756767;
 }
 
 #nav h1,
@@ -3836,20 +3836,20 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #nav h4,
 #nav h5,
 #nav h6 {
-	color: #ffffff;
+	color: #756767;
 }
 
 #nav blockquote {
-	border-left-color: #ffffff;
+	border-left-color: #756767;
 }
 
 #nav code {
 	background: rgba(255, 255, 255, 0.075);
-	border-color: #ffffff;
+	border-color: #756767;
 }
 
 #nav hr {
-	border-bottom-color: #ffffff;
+	border-bottom-color: #756767;
 }
 
 #nav ul.links {
@@ -3896,7 +3896,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #nav ul.links li.active {
-	background-color: #ffffff;
+	background-color: #756767;
 }
 
 #nav ul.links li.active a {
