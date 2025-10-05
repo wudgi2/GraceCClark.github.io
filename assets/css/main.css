@@ -4894,3 +4894,27 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	}
 
 }
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	/* vertical alignment */
+	justify-content: center;
+	/* space between or center them */
+	gap: 20px;
+	/* spacing between image and text */
+	flex-wrap: wrap;
+	/* makes it mobile-friendly */
+}
+
+.flex-item {
+	flex: 1;
+	min-width: 250px;
+	/* ensures stacking on small screens */
+}
+
+.image-side img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+}
